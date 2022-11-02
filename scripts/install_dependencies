@@ -1,5 +1,3 @@
 #!/bin/bash
-sudo amazon-linux-extras enable nginx1
-sudo yum clean metadata
-sudo yum -y install nginx
-sudo rm -rf /usr/share/nginx/html/*
+sudo apt -y install nginx
+sudo rm -rf /var/www/html/*
