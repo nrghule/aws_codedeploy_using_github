@@ -109,7 +109,7 @@
     <section class="container wrapper">
       <?php 
         $result = $_GET['image'];
-        echo '<img src="https://thumbs.dreamstime.com/z/login-illustration-letter-cubes-forming-word-36025252.jpg'.$result.'.jpg">'; 
+        echo '<img src="https://dhu2kpk1m7f8l.cloudfront.net/vector.jpg'.$result.'.jpg">'; 
       ?>
       <h2 class="display-4 pt-3">Login</h2>
           <p class="text-center">Please fill this form to create an account THis is new update.</p>
