@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /php-website/
-    destination: /usr/share/nginx/html/
+  - source: /webapp/
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
