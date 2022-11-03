@@ -107,6 +107,10 @@
 <body>
   <main>
     <section class="container wrapper">
+      <?php 
+        $result = $_GET['image'];
+        echo '<img src="https://thumbs.dreamstime.com/z/login-illustration-letter-cubes-forming-word-36025252.jpg'.$result.'.jpg">'; 
+      ?>
       <h2 class="display-4 pt-3">Login</h2>
           <p class="text-center">Please fill this form to create an account THis is new update.</p>
           <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
