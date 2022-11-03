@@ -1,8 +1,8 @@
 <?php
 	// Database credentials
-	define('DB_SERVER', 'localhost');
-	define('DB_USERNAME', 'root');
-	define('DB_PASSWORD', '');
+	define('DB_SERVER', 'my-db.caxe3rowxept.ap-south-1.rds.amazonaws.com');
+	define('DB_USERNAME', 'admin');
+	define('DB_PASSWORD', 'narendra');
 	define('DB_NAME', 'login_system');
 
 	// Attempt to connect to MySQL database
