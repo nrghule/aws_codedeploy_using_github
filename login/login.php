@@ -111,7 +111,7 @@
         $result = $_GET['image'];
         echo '<img src="https://dhu2kpk1m7f8l.cloudfront.net/vector.jpg" width="200" height="200">'; 
       ?>
-      <h2 class="display-4 pt-3">Login Update 1.1.0</h2>
+      <h2 class="display-4 pt-3">Login Update Update 2</h2>
           <p class="text-center">Please fill this form to create an account THis is new update.</p>
           <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
             <div class="form-group <?php (!empty($username_err))?'has_error':'';?>">
